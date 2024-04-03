@@ -1,0 +1,518 @@
+[DEBUG] [2024-04-03 13:59:33,920 -0400] - Proxy host not provided
+[DEBUG] [2024-04-03 13:59:33,923 -0400] - Base url:'https://saas.whitesourcesoftware.com' 
+[INFO] [2024-04-03 13:59:33,987 -0400[ - UnifiedAgent version (pluginVersion) : 24.3.1
+[INFO] [2024-04-03 13:59:33,991 -0400[ - 
+##### general #####
+wss.url=https://saas.whitesourcesoftware.com/agent
+userKey=******
+projectTag=
+projectName=GradleHomework
+productName=UAScans
+log.level=debug
+includes=**/*.7z,**/*.a,**/*.aar,**/*.air,**/*.apk,**/*.ar,**/*.bb,**/*.bz2,**/*.car,**/*.conda,**/*.cpa,**/*.crate,**/*.deb,**/*.dll,**/*.dmg,**/*.docker,**/*.drpm,**/*.ear,**/*.egg,**/*.epk,**/*.exe,**/*.gal,**/*.gem,**/*.gzip,**/*.har,**/*.hpi,**/*.jar,**/*.jar.pack.gz,**/*.jpi,**/*.js,**/*.ko,**/*.min.js,**/*.msi,**/*.nupkg,**/*.pkg.tar.xz,**/*.rpm,**/*.sar,**/*.sit,**/*.so,**/*.swc,**/*.swf,**/*.tar,**/*.tar.bz2,**/*.tar.gz,**/*.tbz,**/*.tgz,**/*.udeb,**/*.war,**/*.whl,**/*.zip,**/*.4th,**/*.6pl,**/*.6pm,**/*.8xk,**/*.8xk.txt,**/*.8xp,**/*.8xp.txt,**/*.E,**/*.ML,**/*._coffee,**/*._js,**/*._ls,**/*.abap,**/*.ada,**/*.adb,**/*.ado,**/*.adp,**/*.ads,**/*.agda,**/*.ahk,**/*.ahkl,**/*.aidl,**/*.aj,**/*.al,**/*.als,**/*.ampl,**/*.apl,**/*.app.src,**/*.applescript,**/*.arc,**/*.as,**/*.asax,**/*.asc,**/*.ascx,**/*.asd,**/*.ash,**/*.ashx,**/*.asmx,**/*.asp,**/*.aspx,**/*.au3,**/*.aug,**/*.auk,**/*.aw,**/*.awk,**/*.axd,**/*.axi,**/*.axi.erb,**/*.axs,**/*.axs.erb,**/*.b,**/*.bas,**/*.bash,**/*.bat,**/*.bats,**/*.bb,**/*.befunge,**/*.bf,**/*.bison,**/*.bmx,**/*.bones,**/*.boo,**/*.boot,**/*.brd,**/*.bro,**/*.brs,**/*.bsl,**/*.bsv,**/*.builder,**/*.bzl,**/*.c,**/*.c++,**/*.cake,**/*.capnp,**/*.cats,**/*.cbl,**/*.cc,**/*.ccp,**/*.cdf,**/*.ceylon,**/*.cfc,**/*.cfm,**/*.cfml,**/*.cgi,**/*.ch,**/*.chpl,**/*.chs,**/*.cirru,**/*.cjsx,**/*.ck,**/*.cl,**/*.cl2,**/*.click,**/*.clj,**/*.cljc,**/*.cljs,**/*.cljs.hl,**/*.cljscm,**/*.cljx,**/*.clp,**/*.cls,**/*.clw,**/*.cmd,**/*.cob,**/*.cobol,**/*.coffee,**/*.com,**/*.command,**/*.coq,**/*.cp,**/*.cpp,**/*.cps,**/*.cpy,**/*.cr,**/*.cs,**/*.csd,**/*.cshtml,**/*.csx,**/*.ctp,**/*.cu,**/*.cuh,**/*.cw,**/*.cxx,**/*.cy,**/*.d,**/*.dart,**/*.dats,**/*.db2,**/*.dcl,**/*.decls,**/*.dfm,**/*.di,**/*.djs,**/*.dlm,**/*.dm,**/*.do,**/*.doh,**/*.dpr,**/*.druby,**/*.duby,**/*.dyalog,**/*.dyl,**/*.dylan,**/*.e,**/*.ec,**/*.ecl,**/*.eclxml,**/*.eh,**/*.el,**/*.eliom,**/*.eliomi,**/*.elm,**/*.em,**/*.emacs,**/*.emacs.desktop,**/*.emberscript,**/*.eq,**/*.erl,**/*.es,**/*.es6,**/*.escript,**/*.ex,**/*.exs,**/*.eye,**/*.f,**/*.f03,**/*.f08,**/*.f77,**/*.f90,**/*.f95,**/*.factor,**/*.fan,**/*.fancypack,**/*.fcgi,**/*.feature,**/*.flex,**/*.flux,**/*.for,**/*.forth,**/*.fp,**/*.fpp,**/*.fr,**/*.frag,**/*.frg,**/*.frm,**/*.frt,**/*.frx,**/*.fs,**/*.fsh,**/*.fshader,**/*.fsi,**/*.fsx,**/*.fth,**/*.ftl,**/*.fun,**/*.fx,**/*.fxh,**/*.fy,**/*.g,**/*.g4,**/*.gap,**/*.gawk,**/*.gd,**/*.gdb,**/*.gdbinit,**/*.gemspec,**/*.geo,**/*.geom,**/*.gf,**/*.gi,**/*.glf,**/*.glsl,**/*.glslv,**/*.gml,**/*.gms,**/*.gnu,**/*.gnuplot,**/*.go,**/*.god,**/*.golo,**/*.gp,**/*.grace,**/*.groovy,**/*.grt,**/*.gs,**/*.gshader,**/*.gsp,**/*.gst,**/*.gsx,**/*.gtpl,**/*.gvy,**/*.gyp,**/*.gypi,**/*.h,**/*.h++,**/*.hats,**/*.hb,**/*.hcl,**/*.hh,**/*.hic,**/*.hlean,**/*.hlsl,**/*.hlsli,**/*.hpp,**/*.hqf,**/*.hrl,**/*.hs,**/*.hsc,**/*.hx,**/*.hxsl,**/*.hxx,**/*.hy,**/*.i7x,**/*.iced,**/*.icl,**/*.idc,**/*.idr,**/*.ihlp,**/*.ijs,**/*.ik,**/*.ily,**/*.inc,**/*.inl,**/*.ino,**/*.intr,**/*.io,**/*.ipf,**/*.ipp,**/*.irbrc,**/*.iss,**/*.j,**/*.jake,**/*.java,**/*.jbuilder,**/*.jflex,**/*.ji,**/*.jison,**/*.jisonlex,**/*.jl,**/*.jq,**/*.js,**/*.jsb,**/*.jscad,**/*.jsfl,**/*.jsm,**/*.jsp,**/*.jss,**/*.jsx,**/*.kicad_pcb,**/*.kid,**/*.krl,**/*.ksh,**/*.kt,**/*.ktm,**/*.kts,**/*.l,**/*.lagda,**/*.las,**/*.lasso,**/*.lasso8,**/*.lasso9,**/*.ldml,**/*.lean,**/*.lex,**/*.lfe,**/*.lgt,**/*.lhs,**/*.lid,**/*.lidr,**/*.lisp,**/*.litcoffee,**/*.ll,**/*.lmi,**/*.logtalk,**/*.lol,**/*.lookml,**/*.lpr,**/*.ls,**/*.lsl,**/*.lslp,**/*.lsp,**/*.lua,**/*.lvproj,**/*.ly,**/*.m,**/*.m4,**/*.ma,**/*.mak,**/*.make,**/*.mako,**/*.mao,**/*.mata,**/*.matah,**/*.mathematica,**/*.matlab,**/*.mawk,**/*.maxhelp,**/*.maxpat,**/*.maxproj,**/*.mcr,**/*.metal,**/*.minid,**/*.mir,**/*.mirah,**/*.mk,**/*.mkfile,**/*.ml,**/*.ml4,**/*.mli,**/*.mll,**/*.mly,**/*.mm,**/*.mmk,**/*.mms,**/*.mo,**/*.mod,**/*.model.lkml,**/*.monkey,**/*.moo,**/*.moon,**/*.mq4,**/*.mq5,**/*.mqh,**/*.ms,**/*.mspec,**/*.mss,**/*.mt,**/*.mu,**/*.muf,**/*.mumps,**/*.mxt,**/*.myt,**/*.n,**/*.nawk,**/*.nb,**/*.nbp,**/*.nc,**/*.ncl,**/*.ni,**/*.nim,**/*.nimrod,**/*.nit,**/*.nix,**/*.njs,**/*.nl,**/*.nlogo,**/*.nqp,**/*.nse,**/*.nsh,**/*.nsi,**/*.nu,**/*.numpy,**/*.numpyw,**/*.numsc,**/*.nut,**/*.ny,**/*.omgrofl,**/*.ooc,**/*.opa,**/*.opal,**/*.opencl,**/*.orc,**/*.os,**/*.ox,**/*.oxh,**/*.oxo,**/*.oxygene,**/*.oz,**/*.p,**/*.p4,**/*.p6,**/*.p6l,**/*.p6m,**/*.pac,**/*.pan,**/*.parrot,**/*.pas,**/*.pascal,**/*.pasm,**/*.pat,**/*.pb,**/*.pbi,**/*.pbt,**/*.pck,**/*.pd,**/*.pd_lua,**/*.pde,**/*.perl,**/*.ph,**/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phps,**/*.phpt,**/*.pig,**/*.pike,**/*.pir,**/*.pkb,**/*.pks,**/*.pl,**/*.pl6,**/*.plb,**/*.plot,**/*.pls,**/*.plsql,**/*.plt,**/*.pluginspec,**/*.plx,**/*.pm,**/*.pm6,**/*.pmod,**/*.pod,**/*.podsl,**/*.podspec,**/*.pogo,**/*.pony,**/*.pov,**/*.pp,**/*.pprx,**/*.prg,**/*.pri,**/*.pro,**/*.prolog,**/*.prw,**/*.ps1,**/*.psc,**/*.psd1,**/*.psgi,**/*.psm1,**/*.purs,**/*.pwn,**/*.pxd,**/*.pxi,**/*.py,**/*.py3,**/*.pyde,**/*.pyp,**/*.pyt,**/*.pyw,**/*.pyx,**/*.qbs,**/*.qml,**/*.r,**/*.r2,**/*.r3,**/*.rabl,**/*.rake,**/*.rb,**/*.rbbas,**/*.rbfrm,**/*.rbmnu,**/*.rbres,**/*.rbtbar,**/*.rbuild,**/*.rbuistate,**/*.rbw,**/*.rbx,**/*.rbxs,**/*.rd,**/*.re,**/*.reb,**/*.rebol,**/*.red,**/*.reds,**/*.rei,**/*.rex,**/*.rexx,**/*.rg,**/*.rkt,**/*.rktd,**/*.rktl,**/*.rl,**/*.rpy,**/*.rs,**/*.rs.in,**/*.rsc,**/*.rsh,**/*.rsx,**/*.ru,**/*.ruby,**/*.sage,**/*.sagews,**/*.sas,**/*.sats,**/*.sbt,**/*.sc,**/*.scad,**/*.scala,**/*.scd,**/*.sce,**/*.sch,**/*.sci,**/*.scm,**/*.sco,**/*.scpt,**/*.scrbl,**/*.self,**/*.sexp,**/*.sh,**/*.sh-session,**/*.sh.in,**/*.shader,**/*.shen,**/*.sig,**/*.sj,**/*.sjs,**/*.sl,**/*.sld,**/*.sls,**/*.sma,**/*.smali,**/*.sml,**/*.smt,**/*.smt2,**/*.sp,**/*.spec,**/*.spin,**/*.sps,**/*.sqf,**/*.sql,**/*.sra,**/*.sru,**/*.srw,**/*.ss,**/*.ssjs,**/*.st,**/*.stan,**/*.sthlp,**/*.sv,**/*.svh,**/*.swift,**/*.t,**/*.tac,**/*.tcc,**/*.tcl,**/*.tf,**/*.thor,**/*.thrift,**/*.thy,**/*.tla,**/*.tm,**/*.tmux,**/*.tool,**/*.tpl,**/*.tpp,**/*.ts,**/*.tst,**/*.tsx,**/*.tu,**/*.txl,**/*.uc,**/*.udo,**/*.uno,**/*.upc,**/*.ur,**/*.urs,**/*.v,**/*.vala,**/*.vapi,**/*.vark,**/*.vb,**/*.vba,**/*.vbhtml,**/*.vbs,**/*.vcl,**/*.veo,**/*.vert,**/*.vh,**/*.vhd,**/*.vhdl,**/*.vhf,**/*.vhi,**/*.vho,**/*.vhs,**/*.vht,**/*.vhw,**/*.view.lkml,**/*.vim,**/*.volt,**/*.vrx,**/*.vsh,**/*.vshader,**/*.w,**/*.watchr,**/*.webidl,**/*.wisp,**/*.wl,**/*.wlt,**/*.wlua,**/*.wsgi,**/*.x,**/*.x10,**/*.xc,**/*.xi,**/*.xm,**/*.xojo_code,**/*.xojo_menu,**/*.xojo_report,**/*.xojo_script,**/*.xojo_toolbar,**/*.xojo_window,**/*.xpl,**/*.xproc,**/*.xpy,**/*.xq,**/*.xql,**/*.xqm,**/*.xquery,**/*.xqy,**/*.xrl,**/*.xs,**/*.xsjs,**/*.xsjslib,**/*.xsl,**/*.xslt,**/*.xsp-config,**/*.xsp.metadata,**/*.xtend,**/*.y,**/*.yacc,**/*.yap,**/*.yrl,**/*.yy,**/*.zep,**/*.zimpl,**/*.zmpl,**/*.zpl,**/*.zsh
+forceUpdate.failBuildOnPolicyViolation=false
+forceUpdate=false
+forceCheckAllDependencies=false
+configFilePath=wss-unified-agent.config
+checkPolicies=false
+apiKey=******
+#whiteSourceFolderPath=.
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#showProgressBar=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#resolveAllDependencies=true
+#requireKnownSha1=true
+#requesterEmail=
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#ignoreEuaNotices=informational
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#fileSystemScan=true
+#failErrorLevel=DEFAULT
+#excludes=**/.*,**/node_modules,**/src/test,**/testdata,**/*sources.jar,**/*javadoc.jar
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#commandTimeout=900
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+##### ANT #####
+#ant.resolveDependencies=true
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=true
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=true
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.runPreStep=false
+#haskell.resolveDependencies=true
+#haskell.ignoreSourceFiles=true
+#haskell.ignorePreStepErrors=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=true
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=true
+#cocoapods.ignoreSourceFiles=true
+
+##### conda #####
+#conda.resolveDependencies=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scanContainers=false
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=true
+case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=true
+#go.modules.resolveDependencies=true
+#go.modules.removeDuplicateDependencies=true
+#go.modules.includeTestDependencies=false
+#go.modules.ignoreSourceFiles=true
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+gradle.includedConfigurations=runtimeClasspath
+#gradle.resolveDependencies=true
+#gradle.preferredEnvironment=wrapper
+#gradle.innerModulesAsDependencies=true
+#gradle.includeModules=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=true
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=true
+
+##### maven #####
+#maven.runPreStep=false
+#maven.resolveDependencies=true
+#maven.projectNameFromDependencyFile=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.ignoreMvnTreeErrors=false
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.allowPartialTree=false
+#maven.aggregateModules=false
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=true
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=true
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=true
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=true
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=true
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=true
+#php.removeDuplicateDependencies=true
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupFiles=false
+#python.resolvePoetryEditablePackages=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=true
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=true
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=true
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+#sbt.runPreStep=false
+#sbt.resolveDependencies=true
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.user=
+#scm.url=
+#scm.tag=
+#scm.repositoriesFile=
+#scm.ppk=
+#scm.pass=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2024-04-03 13:59:34,333 -0400[ - Available processors (cores): 	11
+Free memory (Mb): 	270
+Max memory (Mb): 	4608
+Total memory (Mb): 	524
+Used memory (Mb): 	253
+
+[INFO] [2024-04-03 13:59:34,334 -0400[ - Starting analysis
+[INFO] [2024-04-03 13:59:34,335 -0400[ - Scanning directories [/Users/aayanthalakola/Sandbox/Homework] for package dependencies (may take a few minutes)
+[INFO] [2024-04-03 13:59:34,335 -0400[ - Included file types: **/*.7z,**/*.a,**/*.aar,**/*.air,**/*.apk,**/*.ar,**/*.bb,**/*.bz2,**/*.car,**/*.conda,**/*.cpa,**/*.crate,**/*.deb,**/*.dll,**/*.dmg,**/*.docker,**/*.drpm,**/*.ear,**/*.egg,**/*.epk,**/*.exe,**/*.gal,**/*.gem,**/*.gzip,**/*.har,**/*.hpi,**/*.jar,**/*.jar.pack.gz,**/*.jpi,**/*.js,**/*.ko,**/*.min.js,**/*.msi,**/*.nupkg,**/*.pkg.tar.xz,**/*.rpm,**/*.sar,**/*.sit,**/*.so,**/*.swc,**/*.swf,**/*.tar,**/*.tar.bz2,**/*.tar.gz,**/*.tbz,**/*.tgz,**/*.udeb,**/*.war,**/*.whl,**/*.zip,**/*.4th,**/*.6pl,**/*.6pm,**/*.8xk,**/*.8xk.txt,**/*.8xp,**/*.8xp.txt,**/*.E,**/*.ML,**/*._coffee,**/*._js,**/*._ls,**/*.abap,**/*.ada,**/*.adb,**/*.ado,**/*.adp,**/*.ads,**/*.agda,**/*.ahk,**/*.ahkl,**/*.aidl,**/*.aj,**/*.al,**/*.als,**/*.ampl,**/*.apl,**/*.app.src,**/*.applescript,**/*.arc,**/*.as,**/*.asax,**/*.asc,**/*.ascx,**/*.asd,**/*.ash,**/*.ashx,**/*.asmx,**/*.asp,**/*.aspx,**/*.au3,**/*.aug,**/*.auk,**/*.aw,**/*.awk,**/*.axd,**/*.axi,**/*.axi.erb,**/*.axs,**/*.axs.erb,**/*.b,**/*.bas,**/*.bash,**/*.bat,**/*.bats,**/*.bb,**/*.befunge,**/*.bf,**/*.bison,**/*.bmx,**/*.bones,**/*.boo,**/*.boot,**/*.brd,**/*.bro,**/*.brs,**/*.bsl,**/*.bsv,**/*.builder,**/*.bzl,**/*.c,**/*.c++,**/*.cake,**/*.capnp,**/*.cats,**/*.cbl,**/*.cc,**/*.ccp,**/*.cdf,**/*.ceylon,**/*.cfc,**/*.cfm,**/*.cfml,**/*.cgi,**/*.ch,**/*.chpl,**/*.chs,**/*.cirru,**/*.cjsx,**/*.ck,**/*.cl,**/*.cl2,**/*.click,**/*.clj,**/*.cljc,**/*.cljs,**/*.cljs.hl,**/*.cljscm,**/*.cljx,**/*.clp,**/*.cls,**/*.clw,**/*.cmd,**/*.cob,**/*.cobol,**/*.coffee,**/*.com,**/*.command,**/*.coq,**/*.cp,**/*.cpp,**/*.cps,**/*.cpy,**/*.cr,**/*.cs,**/*.csd,**/*.cshtml,**/*.csx,**/*.ctp,**/*.cu,**/*.cuh,**/*.cw,**/*.cxx,**/*.cy,**/*.d,**/*.dart,**/*.dats,**/*.db2,**/*.dcl,**/*.decls,**/*.dfm,**/*.di,**/*.djs,**/*.dlm,**/*.dm,**/*.do,**/*.doh,**/*.dpr,**/*.druby,**/*.duby,**/*.dyalog,**/*.dyl,**/*.dylan,**/*.e,**/*.ec,**/*.ecl,**/*.eclxml,**/*.eh,**/*.el,**/*.eliom,**/*.eliomi,**/*.elm,**/*.em,**/*.emacs,**/*.emacs.desktop,**/*.emberscript,**/*.eq,**/*.erl,**/*.es,**/*.es6,**/*.escript,**/*.ex,**/*.exs,**/*.eye,**/*.f,**/*.f03,**/*.f08,**/*.f77,**/*.f90,**/*.f95,**/*.factor,**/*.fan,**/*.fancypack,**/*.fcgi,**/*.feature,**/*.flex,**/*.flux,**/*.for,**/*.forth,**/*.fp,**/*.fpp,**/*.fr,**/*.frag,**/*.frg,**/*.frm,**/*.frt,**/*.frx,**/*.fs,**/*.fsh,**/*.fshader,**/*.fsi,**/*.fsx,**/*.fth,**/*.ftl,**/*.fun,**/*.fx,**/*.fxh,**/*.fy,**/*.g,**/*.g4,**/*.gap,**/*.gawk,**/*.gd,**/*.gdb,**/*.gdbinit,**/*.gemspec,**/*.geo,**/*.geom,**/*.gf,**/*.gi,**/*.glf,**/*.glsl,**/*.glslv,**/*.gml,**/*.gms,**/*.gnu,**/*.gnuplot,**/*.go,**/*.god,**/*.golo,**/*.gp,**/*.grace,**/*.groovy,**/*.grt,**/*.gs,**/*.gshader,**/*.gsp,**/*.gst,**/*.gsx,**/*.gtpl,**/*.gvy,**/*.gyp,**/*.gypi,**/*.h,**/*.h++,**/*.hats,**/*.hb,**/*.hcl,**/*.hh,**/*.hic,**/*.hlean,**/*.hlsl,**/*.hlsli,**/*.hpp,**/*.hqf,**/*.hrl,**/*.hs,**/*.hsc,**/*.hx,**/*.hxsl,**/*.hxx,**/*.hy,**/*.i7x,**/*.iced,**/*.icl,**/*.idc,**/*.idr,**/*.ihlp,**/*.ijs,**/*.ik,**/*.ily,**/*.inc,**/*.inl,**/*.ino,**/*.intr,**/*.io,**/*.ipf,**/*.ipp,**/*.irbrc,**/*.iss,**/*.j,**/*.jake,**/*.java,**/*.jbuilder,**/*.jflex,**/*.ji,**/*.jison,**/*.jisonlex,**/*.jl,**/*.jq,**/*.js,**/*.jsb,**/*.jscad,**/*.jsfl,**/*.jsm,**/*.jsp,**/*.jss,**/*.jsx,**/*.kicad_pcb,**/*.kid,**/*.krl,**/*.ksh,**/*.kt,**/*.ktm,**/*.kts,**/*.l,**/*.lagda,**/*.las,**/*.lasso,**/*.lasso8,**/*.lasso9,**/*.ldml,**/*.lean,**/*.lex,**/*.lfe,**/*.lgt,**/*.lhs,**/*.lid,**/*.lidr,**/*.lisp,**/*.litcoffee,**/*.ll,**/*.lmi,**/*.logtalk,**/*.lol,**/*.lookml,**/*.lpr,**/*.ls,**/*.lsl,**/*.lslp,**/*.lsp,**/*.lua,**/*.lvproj,**/*.ly,**/*.m,**/*.m4,**/*.ma,**/*.mak,**/*.make,**/*.mako,**/*.mao,**/*.mata,**/*.matah,**/*.mathematica,**/*.matlab,**/*.mawk,**/*.maxhelp,**/*.maxpat,**/*.maxproj,**/*.mcr,**/*.metal,**/*.minid,**/*.mir,**/*.mirah,**/*.mk,**/*.mkfile,**/*.ml,**/*.ml4,**/*.mli,**/*.mll,**/*.mly,**/*.mm,**/*.mmk,**/*.mms,**/*.mo,**/*.mod,**/*.model.lkml,**/*.monkey,**/*.moo,**/*.moon,**/*.mq4,**/*.mq5,**/*.mqh,**/*.ms,**/*.mspec,**/*.mss,**/*.mt,**/*.mu,**/*.muf,**/*.mumps,**/*.mxt,**/*.myt,**/*.n,**/*.nawk,**/*.nb,**/*.nbp,**/*.nc,**/*.ncl,**/*.ni,**/*.nim,**/*.nimrod,**/*.nit,**/*.nix,**/*.njs,**/*.nl,**/*.nlogo,**/*.nqp,**/*.nse,**/*.nsh,**/*.nsi,**/*.nu,**/*.numpy,**/*.numpyw,**/*.numsc,**/*.nut,**/*.ny,**/*.omgrofl,**/*.ooc,**/*.opa,**/*.opal,**/*.opencl,**/*.orc,**/*.os,**/*.ox,**/*.oxh,**/*.oxo,**/*.oxygene,**/*.oz,**/*.p,**/*.p4,**/*.p6,**/*.p6l,**/*.p6m,**/*.pac,**/*.pan,**/*.parrot,**/*.pas,**/*.pascal,**/*.pasm,**/*.pat,**/*.pb,**/*.pbi,**/*.pbt,**/*.pck,**/*.pd,**/*.pd_lua,**/*.pde,**/*.perl,**/*.ph,**/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phps,**/*.phpt,**/*.pig,**/*.pike,**/*.pir,**/*.pkb,**/*.pks,**/*.pl,**/*.pl6,**/*.plb,**/*.plot,**/*.pls,**/*.plsql,**/*.plt,**/*.pluginspec,**/*.plx,**/*.pm,**/*.pm6,**/*.pmod,**/*.pod,**/*.podsl,**/*.podspec,**/*.pogo,**/*.pony,**/*.pov,**/*.pp,**/*.pprx,**/*.prg,**/*.pri,**/*.pro,**/*.prolog,**/*.prw,**/*.ps1,**/*.psc,**/*.psd1,**/*.psgi,**/*.psm1,**/*.purs,**/*.pwn,**/*.pxd,**/*.pxi,**/*.py,**/*.py3,**/*.pyde,**/*.pyp,**/*.pyt,**/*.pyw,**/*.pyx,**/*.qbs,**/*.qml,**/*.r,**/*.r2,**/*.r3,**/*.rabl,**/*.rake,**/*.rb,**/*.rbbas,**/*.rbfrm,**/*.rbmnu,**/*.rbres,**/*.rbtbar,**/*.rbuild,**/*.rbuistate,**/*.rbw,**/*.rbx,**/*.rbxs,**/*.rd,**/*.re,**/*.reb,**/*.rebol,**/*.red,**/*.reds,**/*.rei,**/*.rex,**/*.rexx,**/*.rg,**/*.rkt,**/*.rktd,**/*.rktl,**/*.rl,**/*.rpy,**/*.rs,**/*.rs.in,**/*.rsc,**/*.rsh,**/*.rsx,**/*.ru,**/*.ruby,**/*.sage,**/*.sagews,**/*.sas,**/*.sats,**/*.sbt,**/*.sc,**/*.scad,**/*.scala,**/*.scd,**/*.sce,**/*.sch,**/*.sci,**/*.scm,**/*.sco,**/*.scpt,**/*.scrbl,**/*.self,**/*.sexp,**/*.sh,**/*.sh-session,**/*.sh.in,**/*.shader,**/*.shen,**/*.sig,**/*.sj,**/*.sjs,**/*.sl,**/*.sld,**/*.sls,**/*.sma,**/*.smali,**/*.sml,**/*.smt,**/*.smt2,**/*.sp,**/*.spec,**/*.spin,**/*.sps,**/*.sqf,**/*.sql,**/*.sra,**/*.sru,**/*.srw,**/*.ss,**/*.ssjs,**/*.st,**/*.stan,**/*.sthlp,**/*.sv,**/*.svh,**/*.swift,**/*.t,**/*.tac,**/*.tcc,**/*.tcl,**/*.tf,**/*.thor,**/*.thrift,**/*.thy,**/*.tla,**/*.tm,**/*.tmux,**/*.tool,**/*.tpl,**/*.tpp,**/*.ts,**/*.tst,**/*.tsx,**/*.tu,**/*.txl,**/*.uc,**/*.udo,**/*.uno,**/*.upc,**/*.ur,**/*.urs,**/*.v,**/*.vala,**/*.vapi,**/*.vark,**/*.vb,**/*.vba,**/*.vbhtml,**/*.vbs,**/*.vcl,**/*.veo,**/*.vert,**/*.vh,**/*.vhd,**/*.vhdl,**/*.vhf,**/*.vhi,**/*.vho,**/*.vhs,**/*.vht,**/*.vhw,**/*.view.lkml,**/*.vim,**/*.volt,**/*.vrx,**/*.vsh,**/*.vshader,**/*.w,**/*.watchr,**/*.webidl,**/*.wisp,**/*.wl,**/*.wlt,**/*.wlua,**/*.wsgi,**/*.x,**/*.x10,**/*.xc,**/*.xi,**/*.xm,**/*.xojo_code,**/*.xojo_menu,**/*.xojo_report,**/*.xojo_script,**/*.xojo_toolbar,**/*.xojo_window,**/*.xpl,**/*.xproc,**/*.xpy,**/*.xq,**/*.xql,**/*.xqm,**/*.xquery,**/*.xqy,**/*.xrl,**/*.xs,**/*.xsjs,**/*.xsjslib,**/*.xsl,**/*.xslt,**/*.xsp-config,**/*.xsp.metadata,**/*.xtend,**/*.y,**/*.yacc,**/*.yap,**/*.yrl,**/*.yy,**/*.zep,**/*.zimpl,**/*.zmpl,**/*.zpl,**/*.zsh
+[INFO] [2024-04-03 13:59:34,335 -0400[ - Excluded file types: **/.*,**/node_modules,**/src/test,**/testdata,**/*sources.jar,**/*javadoc.jar
+[INFO] [2024-04-03 13:59:34,337 -0400[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2024-04-03 13:59:34,337 -0400[ - Scanning /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,342 -0400[ - Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/app/build.gradle.kts
+[DEBUG] [2024-04-03 13:59:34,343 -0400[ - File/Folder Excluded: app/src/test
+[DEBUG] [2024-04-03 13:59:34,346 -0400[ - File/Folder Excluded: .gradle
+[DEBUG] [2024-04-03 13:59:34,346 -0400[ - Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/settings.gradle.kts
+[INFO] [2024-04-03 13:59:34,347 -0400[ - Attempting to resolve dependencies
+[INFO] [2024-04-03 13:59:34,347 -0400[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2024-04-03 13:59:34,356 -0400[ - FilesFrom: GradleDependencyResolver, Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/app/build.gradle.kts
+[DEBUG] [2024-04-03 13:59:34,357 -0400[ - File/Folder Excluded: app/src/test
+[DEBUG] [2024-04-03 13:59:34,358 -0400[ - File/Folder Excluded: .gradle
+[DEBUG] [2024-04-03 13:59:34,358 -0400[ - FilesFrom: GradleDependencyResolver, Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/settings.gradle.kts
+[DEBUG] [2024-04-03 13:59:34,360 -0400[ - top folders found:
+[DEBUG] [2024-04-03 13:59:34,360 -0400[ - +- /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,360 -0400[ - |  +- /Users/aayanthalakola/Sandbox/Homework/settings.gradle.kts
+[DEBUG] [2024-04-03 13:59:34,360 -0400[ - |  +- /Users/aayanthalakola/Sandbox/Homework/app/build.gradle.kts
+[DEBUG] [2024-04-03 13:59:34,361 -0400[ - Finishing reduce dependencies
+[INFO] [2024-04-03 13:59:34,361 -0400[ - Trying to resolve GRADLE dependencies
+[DEBUG] [2024-04-03 13:59:34,362 -0400[ - Command - executeProcess - timeout set to 60s
+[DEBUG] [2024-04-03 13:59:34,362 -0400[ - Command - executeProcess - start execute command 'gradle -v' in '.'
+[DEBUG] [2024-04-03 13:59:34,572 -0400[ - Command result output lines for 'gradle -v':
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #1: ------------------------------------------------------------
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #2: Gradle 8.7
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #3: ------------------------------------------------------------
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #4: Build time:   2024-03-22 15:52:46 UTC
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #5: Revision:     650af14d7653aa949fce5e886e685efc9cf97c10
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #6: Kotlin:       1.9.22
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #7: Groovy:       3.0.17
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #8: Ant:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #9: JVM:          17.0.10 (Homebrew 17.0.10+0)
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - Read line #10: OS:           Mac OS X 14.4.1 aarch64
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - GRADLE installation status: true
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - The command was run under /Users/aayanthalakola/Sandbox/Homework/.
+[INFO] [2024-04-03 13:59:34,573 -0400[ - topFolder = /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - topFolder = /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - GradleDependencyResolver - resolveDependencies - START - /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,573 -0400[ - GradleDependencyResolver - scan - START - /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,574 -0400[ - GradleUtils - findGradleBinary - START - /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,574 -0400[ - GradleUtils - findGradleBinary - END - using project wrapper /Users/aayanthalakola/Sandbox/Homework/gradlew
+[DEBUG] [2024-04-03 13:59:34,574 -0400[ - InitScriptGradleProjectScanner - scan - START - /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,574 -0400[ - InitScriptGradleProjectScanner - scan - START - /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,574 -0400[ - InitScriptGradleProjectScanner - createInitScript - START
+[DEBUG] [2024-04-03 13:59:34,575 -0400[ - InitScriptGradleProjectScanner - createInitScript - END - /var/folders/cz/fy37wq9d3zjdb2mbk159mf800000gn/T/ws-ua_20240403135933_CBUYDA/gradle_GZOPTZ/20240403135934/init.ws.gradle
+[DEBUG] [2024-04-03 13:59:34,575 -0400[ - InitScriptGradleProjectScanner - runInitScript - START - /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:34,575 -0400[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2024-04-03 13:59:34,575 -0400[ - Command - executeProcess - start execute command '/Users/aayanthalakola/Sandbox/Homework/gradlew --init-script /var/folders/cz/fy37wq9d3zjdb2mbk159mf800000gn/T/ws-ua_20240403135933_CBUYDA/gradle_GZOPTZ/20240403135934/init.ws.gradle whitesourceDependenciesTask -DWS_INIT_GRADLE_OUTPUT_PATH=/var/folders/cz/fy37wq9d3zjdb2mbk159mf800000gn/T/ws-ua_20240403135933_CBUYDA/gradle_GZOPTZ/20240403135934/gradle_dependencies -Dorg.gradle.parallel= -DWS_INIT_GRADLE_INCLUDE_DEPENDENCIES=true' in '/Users/aayanthalakola/Sandbox/Homework'
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Command result output lines for '/Users/aayanthalakola/Sandbox/Homework/gradlew --init-script /var/folders/cz/fy37wq9d3zjdb2mbk159mf800000gn/T/ws-ua_20240403135933_CBUYDA/gradle_GZOPTZ/20240403135934/init.ws.gradle whitesourceDependenciesTask -DWS_INIT_GRADLE_OUTPUT_PATH=/var/folders/cz/fy37wq9d3zjdb2mbk159mf800000gn/T/ws-ua_20240403135933_CBUYDA/gradle_GZOPTZ/20240403135934/gradle_dependencies -Dorg.gradle.parallel= -DWS_INIT_GRADLE_INCLUDE_DEPENDENCIES=true':
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #1: > Task :whitesourceDependenciesTask
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #2: WHITESOURCE: dependencies  task - START
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #3: WHITESOURCE: buildDeps - START
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #4: WHITESOURCE: buildDeps - :Homework - 0
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #5: WHITESOURCE: buildDeps - Homework:app - 63
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #6: WHITESOURCE: buildDeps - END
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #7: WHITESOURCE: dependencies task - END
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #8: WHITESOURCE: printing json files to output dir: /var/folders/cz/fy37wq9d3zjdb2mbk159mf800000gn/T/ws-ua_20240403135933_CBUYDA/gradle_GZOPTZ/20240403135934/gradle_dependencies
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #9: > Task :app:whitesourceDependenciesTask
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #10: BUILD SUCCESSFUL in 417ms
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - Read line #11: 2 actionable tasks: 2 executed
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - InitScriptGradleProjectScanner - runInitScript - END - true
+[DEBUG] [2024-04-03 13:59:35,064 -0400[ - InitScriptGradleProjectScanner - parseProjects - START - /var/folders/cz/fy37wq9d3zjdb2mbk159mf800000gn/T/ws-ua_20240403135933_CBUYDA/gradle_GZOPTZ/20240403135934/gradle_dependencies
+[DEBUG] [2024-04-03 13:59:35,108 -0400[ - InitScriptGradleProjectScanner - parseProjects - END - 2
+[DEBUG] [2024-04-03 13:59:35,108 -0400[ - InitScriptGradleProjectScanner - scan - END - 2
+[DEBUG] [2024-04-03 13:59:35,109 -0400[ - InitScriptGradleProjectScanner - scan - END - 2
+[DEBUG] [2024-04-03 13:59:35,109 -0400[ - GradleDependencyResolver - scan - END - 2
+[DEBUG] [2024-04-03 13:59:35,109 -0400[ - GradleDependencyResolver - resolveDependencies - discovered projects - :Homework, Homework:app
+[DEBUG] [2024-04-03 13:59:35,110 -0400[ - GradleDependencyResolver - filterModules - START - [:Homework, Homework:app]
+[DEBUG] [2024-04-03 13:59:35,110 -0400[ - GradleDependencyResolver - filterModules - END - [:Homework, Homework:app]
+[DEBUG] [2024-04-03 13:59:35,110 -0400[ - GradleDependencyResolver - filterConfigurations - START
+[INFO] [2024-04-03 13:59:35,110 -0400[ - The following gradle configurations will be included: [runtimeClasspath]
+[INFO] [2024-04-03 13:59:35,110 -0400[ - The following gradle configurations will be included: [runtimeClasspath]
+[DEBUG] [2024-04-03 13:59:35,110 -0400[ - GradleDependencyResolver - filterConfigurations - END
+[DEBUG] [2024-04-03 13:59:35,111 -0400[ - GradleDependencyResolver - buildDepTree - START - :Homework
+[DEBUG] [2024-04-03 13:59:35,112 -0400[ - GradleDependencyResolver - buildDepTree - END - 0
+[DEBUG] [2024-04-03 13:59:35,112 -0400[ - GradleDependencyResolver - buildDepTree - START - Homework:app
+[DEBUG] [2024-04-03 13:59:35,157 -0400[ - GradleDependencyResolver - calculateSHA1 - skipping androidx.core:core-ktx:1.12.0, system path is empty
+[DEBUG] [2024-04-03 13:59:35,228 -0400[ - GradleDependencyResolver - buildDepTree - END - 12
+[DEBUG] [2024-04-03 13:59:35,228 -0400[ - GradleDependencyResolver - resolveDependencies - END - 2
+[DEBUG] [2024-04-03 13:59:35,229 -0400[ - DependencyResolutionService - get dependency count statistics
+[DEBUG] [2024-04-03 13:59:35,232 -0400[ - File/Folder Excluded: app/src/test
+[DEBUG] [2024-04-03 13:59:35,232 -0400[ - File/Folder Excluded: .gradle
+[DEBUG] [2024-04-03 13:59:35,233 -0400[ - top folders found:
+[INFO] [2024-04-03 13:59:35,233 -0400[ - Trying to resolve HTML dependencies
+[DEBUG] [2024-04-03 13:59:35,233 -0400[ - HTML installation status: true
+[DEBUG] [2024-04-03 13:59:35,233 -0400[ - The command was run under /Users/aayanthalakola/Sandbox/Homework/.
+[INFO] [2024-04-03 13:59:35,233 -0400[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2024-04-03 13:59:35,233 -0400[ - total resolved projects =2
+[INFO] [2024-04-03 13:59:35,234 -0400[ - Scanning directories [/Users/aayanthalakola/Sandbox/Homework] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2024-04-03 13:59:35,234 -0400[ - Scanning /Users/aayanthalakola/Sandbox/Homework
+[DEBUG] [2024-04-03 13:59:35,240 -0400[ - Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/app/build.gradle.kts
+[DEBUG] [2024-04-03 13:59:35,240 -0400[ - File/Folder Excluded: app/src/test
+[DEBUG] [2024-04-03 13:59:35,241 -0400[ - Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/app/src/main/java/org/example/App.java
+[DEBUG] [2024-04-03 13:59:35,247 -0400[ - Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/gradle/wrapper/gradle-wrapper.jar
+[DEBUG] [2024-04-03 13:59:35,250 -0400[ - File/Folder Excluded: .gradle
+[DEBUG] [2024-04-03 13:59:35,250 -0400[ - Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/settings.gradle.kts
+[DEBUG] [2024-04-03 13:59:35,251 -0400[ - Dependency file found location: /Users/aayanthalakola/Sandbox/Homework/gradlew.bat
+[INFO] [2024-04-03 13:59:35,252 -0400[ - Total files found according to the includes/excludes pattern: 5
+[DEBUG] [2024-04-03 13:59:35,264 -0400[ - Ignoring file with size 442 bytes: minimum file size is 512B
+[DEBUG] [2024-04-03 13:59:35,265 -0400[ - Ignored file App.java (286 bytes): minimum file size is 512B
+[INFO] [2024-04-03 13:59:35,266 -0400[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[DEBUG] [2024-04-03 13:59:35,267 -0400[ - Dependency core-ktx has no system path
+[INFO] [2024-04-03 13:59:35,267 -0400[ - Finished analyzing Files
+[DEBUG] [2024-04-03 13:59:35,267 -0400[ - Available processors (cores): 	11
+Free memory (Mb): 	252
+Max memory (Mb): 	4608
+Total memory (Mb): 	524
+Used memory (Mb): 	271
+
+[DEBUG] [2024-04-03 13:59:35,272 -0400[ - Command - executeProcess - timeout set to 900s
+[DEBUG] [2024-04-03 13:59:35,272 -0400[ - Command - executeProcess - start execute command 'id -u' in '.'
+[DEBUG] [2024-04-03 13:59:35,275 -0400[ - Command result output lines for 'id -u':
+[DEBUG] [2024-04-03 13:59:35,275 -0400[ - Read line #1: 501
+[DEBUG] [2024-04-03 13:59:35,277 -0400[ - GitUtils - fetchContributionInfos - START
+[DEBUG] [2024-04-03 13:59:35,278 -0400[ - GitUtils - findGitRepoPaths - .
+[DEBUG] [2024-04-03 13:59:35,280 -0400[ - GitUtils - fetchContributionInfos - END - 0
+[INFO] [2024-04-03 13:59:35,280 -0400[ - Initializing WhiteSource Client
+[DEBUG] [2024-04-03 13:59:35,281 -0400[ - Setting project tags
+[INFO] [2024-04-03 13:59:35,281 -0400[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2024-04-03 13:59:35,305 -0400[ - UpdateType set to OVERRIDE 
+[INFO] [2024-04-03 13:59:35,305 -0400[ - Fetching organization flags
+[INFO] [2024-04-03 13:59:35,614 -0400[ - Sending Update
+[INFO] [2024-04-03 13:59:35,614 -0400[ - 
+------------------------------------------------------------------------
+-------------------- Start: Update Inventory ---------------------------
+------------------------------------------------------------------------
+[INFO] [2024-04-03 13:59:36,379 -0400[ - 
+------------------------------------------------------------------------
+-------------------- End: Update Inventory -----------------------------
+------------------------------------------------------------------------
+[INFO] [2024-04-03 13:59:36,380 -0400[ - Inventory update results for Aayans Sandbox
+[INFO] [2024-04-03 13:59:36,380 -0400[ - No new projects found.
+[INFO] [2024-04-03 13:59:36,383 -0400[ - Updated projects:
+[INFO] [2024-04-03 13:59:36,383 -0400[ - # GradleHomework
+[INFO] [2024-04-03 13:59:36,383 -0400[ - # app
+[INFO] [2024-04-03 13:59:36,384 -0400[ - Project name: app, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=10710574
+[INFO] [2024-04-03 13:59:36,384 -0400[ - Project name: GradleHomework, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=12622461
+[INFO] [2024-04-03 13:59:36,384 -0400[ - Support Token: 08765e2b4057444129db460aaba83b2671712167175675
+[DEBUG] [2024-04-03 13:59:36,388 -0400[ - Process finished with exit code SUCCESS (Inventory update results for Aayans Sandbox
+No new projects found.
+Updated projects:
+GradleHomework
+app
+
+Project name: app, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=10710574
+Project name: GradleHomework, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=12622461
+Support Token: 08765e2b4057444129db460aaba83b2671712167175675)
+[INFO] [2024-04-03 13:59:36,389 -0400[ - Log files are found at: ./whitesource/Wed-Apr-03-2024-13.59.33
+[INFO] [2024-04-03 13:59:36,393 -0400[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.046               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:00:00.886               12 total dependencies (12 unique)
+   GRADLE                                            COMPLETED                  00:00:00.870               12 total dependencies (12 unique)
+   HTML                                              COMPLETED                    --------                 0 dependencies
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.042               5 source/binary files
+   java                                              COMPLETED                    --------                 1 source/binary files
+   bat                                               COMPLETED                    --------                 1 source/binary files
+   jar                                               COMPLETED                    --------                 1 source/binary files
+   kts                                               COMPLETED                    --------                 2 source/binary files
+Update Inventory                                     COMPLETED                  00:00:00.765               2 updated projects
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:00:01.739
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+
