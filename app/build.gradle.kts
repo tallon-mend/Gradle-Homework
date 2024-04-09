@@ -14,10 +14,10 @@ repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
     maven {
-        url = url("https://maven.google.com")
+        url = uri("https://maven.google.com")
     }
     maven {
-        url = url("https://repo.maven.apache.org/maven2")
+        url = uri("https://repo.maven.apache.org/maven2")
     }
 }
 
