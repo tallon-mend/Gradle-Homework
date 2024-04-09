@@ -44,6 +44,13 @@ dependencies {
 
 }
 
+configurations {
+    // declare a configuration that is going to resolve the runtime classpath of the application
+    runtimeClasspath {
+        extendsFrom(someConfiguration)
+    }
+}
+
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
