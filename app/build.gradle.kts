@@ -13,7 +13,12 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
-    google()
+    maven {
+        url = url("https://maven.google.com")
+    }
+    maven {
+        url = url("https://repo.maven.apache.org/maven2")
+    }
 }
 
 dependencies {
