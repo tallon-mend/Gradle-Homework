@@ -45,12 +45,14 @@ jobs:
       
       - name: Scan with UA
         env:
+          WS_GRADLE_INCLUDEMODULES: app
+          WS_GRADLE_INCLUDEDCONFIGURATIONS: runtimeClasspath
           WS_GRADLE_RESOLVEDEPENDENCIES: true
           WS_APIKEY: ${{ secrets.APIKEY }}
           WS_USERKEY: ${{ secrets.MEND_USER_KEY }}
           WS_WSS_URL: ${{ secrets.WS_WSS_URL }}
           WS_PRODUCTNAME: Homework3
-          WS_PROJECTNAME: UAGradleWrapper
+          WS_PROJECTNAME: UAGradleWrapperRuntime
           WS_LOG_LEVEL: DEBUG
         run: java -jar UA.jar
 
