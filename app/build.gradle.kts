@@ -13,13 +13,6 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
-    maven {
-        url = uri("https://repo.maven.apache.org/maven2")
-    }
-    maven {
-        url = uri("https://maven.google.com")
-    }
-    
 }
 
 dependencies {
@@ -42,13 +35,6 @@ dependencies {
     implementation("com.google.protobuf:protobuf-java:3.25.3")
 
 
-}
-
-configurations {
-    // declare a configuration that is going to resolve the runtime classpath of the application
-    runtimeClasspath {
-        extendsFrom(someConfiguration)
-    }
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
