@@ -61,7 +61,7 @@ jobs:
           MEND_LOG_LEVEL: DEBUG
         run: |
           mend dep --update --scope "Homework3//CLIGradleWrapper" --non-interactive -e
-          continue-on-error: true
+        continue-on-error: true
       
       - name: Printing CLI logs
         run: cat ~/.mend/logs/sca/*
