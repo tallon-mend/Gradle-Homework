@@ -52,7 +52,7 @@ jobs:
           WS_USERKEY: ${{ secrets.EU_USER_KEY }}
           WS_WSS_URL: ${{ secrets.EU_URL }}
           WS_PRODUCTNAME: Homework3
-          WS_PROJECTNAME: UAGradleWrapperRuntime
+          WS_PROJECTNAME: UAGradleWrapperAllAlerts
           WS_LOG_LEVEL: DEBUG
         run: java -jar UA.jar
 
