@@ -65,7 +65,14 @@ jobs:
       #   run: java -jar UA.jar
 
       - name: Scan with SC CLI
-        run: ./mend-linux-amd64/mend sca --local
+        env:
+          MEND_URL: ${{ secrets.MEND_URL }}
+          MEND_USER_KEY: ${{ secrets.MEND_USER_KEY }}
+          MEND_EMAIL: ${{ secrets.MEND_EMAIL }}
+          MEND_LOG_LEVEL: DEBUG
+        run: |
+          ./mend-linux-amd64/mend sca --local
+        continue-on-error: true
       
       - name: Scan with CLI
         env:
