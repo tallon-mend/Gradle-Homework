@@ -42,8 +42,9 @@ jobs:
       - name: Downloading CLI Self Contained
         run: |
           echo "Downloading the CLI SC"
-          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz && tar -xzvf /usr/local/bin/mend_linux_amd64.tgz && chmod +x ./mend-linux-amd64/mend
-          ls
+          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz
+          tar -xzvf /usr/local/bin/mend_linux_amd64.tgz
+          chmod +x ./mend-linux-amd64/mend
           export MEND_INSTALL_DIR=/usr/local/bin/mend-linux-amd64/bin
      
       # - name: Verify Scanner
