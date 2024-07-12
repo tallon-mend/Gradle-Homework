@@ -65,7 +65,7 @@ jobs:
       #   run: java -jar UA.jar
 
       - name: Scan with SC CLI
-        run: /usr/local/bin/mend-linux-amd64/mend sca 
+        run: ./mend-linux-amd64/mend sca 
       
       - name: Scan with CLI
         env:
