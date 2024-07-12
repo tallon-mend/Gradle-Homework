@@ -42,7 +42,7 @@ jobs:
       - name: Downloading CLI Self Contained
         run: |
           echo "Downloading the CLI SC"
-          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz && tar -xzvf /usr/local/bin/mend_linux_amd64.tgz && chmod +x ./mend-linux-amd64/mend
+          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz && tar -xzvf /usr/local/bin/mend_linux_amd64.tgz && chmod +x /mend-linux-amd64/mend
           ls
           export MEND_INSTALL_DIR=/usr/local/bin/mend-linux-amd64/bin
      
@@ -71,7 +71,7 @@ jobs:
           MEND_EMAIL: ${{ secrets.MEND_EMAIL }}
           MEND_LOG_LEVEL: DEBUG
         run: |
-          ./mend-linux-amd64/mend sca
+          /mend-linux-amd64/mend sca
         continue-on-error: true
       
       - name: Scan with CLI
