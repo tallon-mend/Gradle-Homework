@@ -33,16 +33,16 @@ jobs:
       #     echo "Verifying the UA"
       #     java -jar "UA.jar" -v
       
-      # - name: Downloading CLI Client
-      #   run: |
-      #     echo "Downloading the CLI"
-      #     curl "https://downloads.mend.io/cli/linux_amd64/mend" -o /usr/local/bin/mend && chmod +x /usr/local/bin/mend
-      #     ls
+      - name: Downloading CLI Client
+        run: |
+          echo "Downloading the CLI"
+          curl "https://downloads.mend.io/cli/linux_amd64/mend" -o /usr/local/bin/mend && chmod +x /usr/local/bin/mend
+          ls
 
       - name: Downloading CLI Self Contained
         run: |
           echo "Downloading the CLI SC"
-          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz && tar -xzvf /usr/local/bin/mend_linux_amd64.tgz && chmod +x /usr/local/bin/mend-linux-amd64/mend
+          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz && tar -xzvf /usr/local/bin/mend_linux_amd64.tgz && chmod +x ./mend-linux-amd64/mend
           ls
           export MEND_INSTALL_DIR=/usr/local/bin/mend-linux-amd64/bin
      
@@ -65,7 +65,7 @@ jobs:
       #   run: java -jar UA.jar
 
       - name: Scan with SC CLI
-        run: ./usr/local/bin/mend-linux-amd64/mend sca 
+        run: /usr/local/bin/mend-linux-amd64/mend sca 
       
       - name: Scan with CLI
         env:
