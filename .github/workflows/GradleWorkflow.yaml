@@ -23,39 +23,48 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v3
 
-      - name: Downloading UA Client
-        run: |
-          echo "Downloading the UA"
-          curl -LJ "https://github.com/whitesource/unified-agent-distribution/releases/latest/download/wss-unified-agent.jar" -o "UA.jar"
+      # - name: Downloading UA Client
+      #   run: |
+      #     echo "Downloading the UA"
+      #     curl -LJ "https://github.com/whitesource/unified-agent-distribution/releases/latest/download/wss-unified-agent.jar" -o "UA.jar"
 
-      - name: Verifying the UA scanner
-        run: |
-          echo "Verifying the UA"
-          java -jar "UA.jar" -v
+      # - name: Verifying the UA scanner
+      #   run: |
+      #     echo "Verifying the UA"
+      #     java -jar "UA.jar" -v
       
       - name: Downloading CLI Client
         run: |
           echo "Downloading the CLI"
           curl "https://downloads.mend.io/cli/linux_amd64/mend" -o /usr/local/bin/mend && chmod +x /usr/local/bin/mend
-     
-      - name: Verify Scanner
-        run: |
-          echo "Verifying the CLI"
-          mend version
-      
-      - name: Scan with UA
-        env:
-          WS_GRADLE_INCLUDEMODULES: app
-          WS_GRADLE_INCLUDEDCONFIGURATIONS: runtimeClasspath
-          WS_GRADLE_RESOLVEDEPENDENCIES: true
-          WS_APIKEY: ${{ secrets.EUAPI }}
-          WS_USERKEY: ${{ secrets.EU_USER_KEY }}
-          WS_WSS_URL: ${{ secrets.EU_URL }}
-          WS_PRODUCTNAME: Homework3
-          WS_PROJECTNAME: UAGradleWrapperAllAlerts
-          WS_LOG_LEVEL: DEBUG
-        run: java -jar UA.jar
 
+      - name: Downloading CLI Self Contained
+        run: |
+          echo "Downloading the CLI SC"
+          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz && tar -xzvf /usr/local/bin/mend_linux_amd64.tgz && chmod +x /usr/local/bin/mend-linux-amd64/mend
+          export MEND_INSTALL_DIR=/usr/local/bin/mend-linux-amd64/bin
+     
+      # - name: Verify Scanner
+      #   run: |
+      #     echo "Verifying the CLI"
+      #     mend version
+      
+      # - name: Scan with UA
+      #   env:
+      #     WS_GRADLE_INCLUDEMODULES: app
+      #     WS_GRADLE_INCLUDEDCONFIGURATIONS: runtimeClasspath
+      #     WS_GRADLE_RESOLVEDEPENDENCIES: true
+      #     WS_APIKEY: ${{ secrets.EUAPI }}
+      #     WS_USERKEY: ${{ secrets.EU_USER_KEY }}
+      #     WS_WSS_URL: ${{ secrets.EU_URL }}
+      #     WS_PRODUCTNAME: Homework3
+      #     WS_PROJECTNAME: UAGradleWrapperAllAlerts
+      #     WS_LOG_LEVEL: DEBUG
+      #   run: java -jar UA.jar
+
+      - name: Scan with SC CLI
+        run: ./usr/local/bin/mend-linux-amd64/mend sca 
+      
       - name: Scan with CLI
         env:
           MEND_URL: ${{ secrets.MEND_URL }}
