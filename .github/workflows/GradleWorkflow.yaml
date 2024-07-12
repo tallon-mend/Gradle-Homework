@@ -37,6 +37,7 @@ jobs:
         run: |
           echo "Downloading the CLI"
           curl "https://downloads.mend.io/cli/linux_amd64/mend" -o /usr/local/bin/mend && chmod +x /usr/local/bin/mend
+          ls
 
       - name: Downloading CLI Self Contained
         run: |
