@@ -41,7 +41,8 @@ jobs:
       - name: Downloading CLI Self Contained
         run: |
           echo "Downloading the CLI SC"
-          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz && tar -xzvf /usr/local/bin/mend_linux_amd64.tgz && chmod +x /usr/local/bin/mend-linux-amd64/mend
+          curl https://downloads.mend.io/cli-standalone/mend_linux_amd64.tgz -o /usr/local/bin/mend_linux_amd64.tgz && tar -xzvf /usr/local/bin/mend_linux_amd64.tgz
+          ls
           export MEND_INSTALL_DIR=/usr/local/bin/mend-linux-amd64/bin
      
       # - name: Verify Scanner
@@ -52,7 +53,7 @@ jobs:
       # - name: Scan with UA
       #   env:
       #     WS_GRADLE_INCLUDEMODULES: app
-      #     WS_GRADLE_INCLUDEDCONFIGURATIONS: runtimeClasspath
+      #     WS_GRADLE_INCLUDEDCONFIGURATIONS: runtimeClasspath  && chmod +x /usr/local/bin/mend-linux-amd64/mend
       #     WS_GRADLE_RESOLVEDEPENDENCIES: true
       #     WS_APIKEY: ${{ secrets.EUAPI }}
       #     WS_USERKEY: ${{ secrets.EU_USER_KEY }}
