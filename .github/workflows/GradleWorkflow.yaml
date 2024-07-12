@@ -46,6 +46,7 @@ jobs:
           tar -xzvf /usr/local/bin/mend_linux_amd64.tgz
           chmod +x ./mend-linux-amd64/mend
           export MEND_INSTALL_DIR=/usr/local/bin/mend-linux-amd64/bin
+          echo MEND_INSTALL_DIR
      
       # - name: Verify Scanner
       #   run: |
@@ -72,7 +73,7 @@ jobs:
           MEND_EMAIL: ${{ secrets.MEND_EMAIL }}
           MEND_LOG_LEVEL: DEBUG
         run: |
-          ./mend-linux-amd64/mend sca
+          /usr/local/bin/mend-linux-amd64/mend sca
         continue-on-error: true
       
       # - name: Scan with CLI
