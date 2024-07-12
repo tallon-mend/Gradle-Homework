@@ -73,7 +73,7 @@ jobs:
           MEND_EMAIL: ${{ secrets.MEND_EMAIL }}
           MEND_LOG_LEVEL: DEBUG
         run: |
-          /usr/local/bin/mend-linux-amd64/mend sca --local
+          ./usr/local/bin/mend-linux-amd64/mend sca --local
         continue-on-error: true
       
       # - name: Scan with CLI
