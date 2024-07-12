@@ -75,7 +75,7 @@ jobs:
           MEND_LOG_LEVEL: DEBUG
         run: |
           ls
-          /usr/local/bin/mend-linux-amd64/mend sca --local
+          /mend-linux-amd64/mend sca
         continue-on-error: true
       
       # - name: Scan with CLI
