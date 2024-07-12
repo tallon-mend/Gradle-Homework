@@ -47,6 +47,7 @@ jobs:
           chmod +x ./mend-linux-amd64/mend
           export MEND_INSTALL_DIR=/usr/local/bin/mend-linux-amd64/bin
           printenv MEND_INSTALL_DIR
+          ls
      
       # - name: Verify Scanner
       #   run: |
@@ -73,7 +74,8 @@ jobs:
           MEND_EMAIL: ${{ secrets.MEND_EMAIL }}
           MEND_LOG_LEVEL: DEBUG
         run: |
-          ./usr/local/bin/mend-linux-amd64/mend sca --local
+          ls
+          /usr/local/bin/mend-linux-amd64/mend sca --local
         continue-on-error: true
       
       # - name: Scan with CLI
